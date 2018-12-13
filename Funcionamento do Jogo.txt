@@ -1,0 +1,40 @@
+﻿-------------------Jogo criado utilizando Python 3---------------------
+
+Após execução do jogo (código jogo.py), uma tela de Menu é criada onde 
+os jogadores podem ver as 5 maiores pontuações do jogo ou podem 
+simplesmente jogar. Para dar início a um novo jogo é obrigatório
+inserir um nome no campo indicado e após isso basta clicar em jogar
+que o jogo começará. Uma nova tela contendo os blocos,a barra e a bola
+é gerada. A bola começa parada na barra, para soltar a bola utilize 
+a tecla 'SPACE/ESPAÇO'.
+Durante o jogo caso queira sair basta fechar a janela ou utilizar
+a tecla 'ESC', para pausar utilize a tecla 'P' e a tecla 'C' para
+continuar.
+
+O objetivo do jogo é fazer a maior pontuação possível, pensando nisso
+o jogo pode ter quantos niveis o usuário for capaz de jogar sem perder.
+
+A pontuação é gerada da seguinte forma:
+Cada bloco quebrado possui um valor de 5 pontos multiplicado pelo 
+nível em que o jogador está.
+
+Todos os niveis possuem o mesmo campo, a única diferença entre eles
+é o bloco amarelo, que funciona como um 'extra', podendo melhorar 
+ou piorar as condições de jogo.
+O bloco amarelo pode representar as seguinte funções:
+- A pontuação atual pode ser dobrada.
+- O jogador ganha mais uma vida.
+- A velocidade da barra diminui.
+- A velocidade da bola aumenta.
+- A velocidade da bola diminui.
+As funções que dificultam o jogo só são executadas durante a fase atual.
+
+Uma outra forma de ganhar uma vida extra é conseguir passar por 4 níveis,
+ou seja, assim que o jogador conseguir chegar a um nível múltiplo de 4,
+ele ganha uma nova vida.
+
+Vale lembrar que para a pontuação ser salva, o jogador deve morrer, caso 
+finalize o jogo durante a execução, sua pontuação não será salva. 
+Após morrer é mostrada uma mensagem de 'GAME OVER' e o jogador é direcionado
+para o menu inicial novamente onde as maiores pontuações foram atualizadas,
+caso necessário.
